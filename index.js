@@ -16,5 +16,5 @@ function driversByRevenue(drivers) {
   }
 
   drivers_copy = drivers
-  drivers_copy.sort(numberSorter)
+  return drivers_copy.sort(numberSorter)
 }
