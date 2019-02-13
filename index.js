@@ -42,5 +42,5 @@ function averageRevenue(drivers) {
     let averageRevenue = 0;
     let totalDrivers = drivers.length
 
-    return averageRevenue += (totalRevenue += totalRevenue(drivers) / totalDrivers)
+    return averageRevenue += (totalRev += totalRevenue(drivers) / totalDrivers)
 }
