@@ -4,3 +4,8 @@ function logDriverNames(drivers) {
     console.log(driver.name);
   })
 }
+
+function logDriversByHometown(drivers, location) {
+  const qualifiedDrivers = drivers.filter(driver => driver.hometown === location);
+  logDriverNames(qualifiedDrivers);
+}
