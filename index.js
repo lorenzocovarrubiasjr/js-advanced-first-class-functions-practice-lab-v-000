@@ -15,5 +15,5 @@ function driversByRevenue(drivers) {
     return num1.revenue - num2.revenue;
   }
 
-  drivers.sort(nubmerSorter)
+  drivers.sort(numberSorter)
 }
