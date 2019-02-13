@@ -35,4 +35,3 @@ function totalRevenue(drivers) {
 
   return totalRevenue;
 }
-
