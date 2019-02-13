@@ -18,3 +18,10 @@ function driversByRevenue(drivers) {
   drivers_copy = drivers.slice(0)
   return drivers_copy.sort(numberSorter)
 }
+
+function driversByName(drivers){
+  drivers_copy = drivers.slice(0);
+  return drivers_copy.sort(function (a,b) {
+    return a.name.localCompare(b.name);
+  })
+}
