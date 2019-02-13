@@ -35,3 +35,11 @@ function totalRevenue(drivers) {
 
   return totalRevenue;
 }
+
+
+function averageRevenue(drivers) {
+    let totalRevenue = 0;
+    let averageRevenue = 0;
+    let totalDrivers = drivers.length
+    
+} 
